@@ -2,6 +2,9 @@
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
+## Dev Stack
+- Node.js v22.14.0
+
 ## Setup
 
 Make sure to install dependencies:
