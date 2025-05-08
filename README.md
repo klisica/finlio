@@ -1,78 +1,44 @@
-# Nuxt Minimal Starter
+# 💰 Finlio - Web Application
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+A Nuxt 3 application for tracking personal finances and budgeting.
 
 ## Dev Stack
+- Nuxt.js v3.17.2
 - Node.js v22.14.0
+- NPM v10.9.2
 
-## Setup
+## Local Setup
 
-Make sure to install dependencies:
+1. Clone to project repository to your local machine and enter the directory.
 
-```bash
-# npm
-npm install
-
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+``` bash
+git clone git@github.com:klisica/finlio.git && cd finlio
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
+2. Check the Node.js version (I'm using NVM for easier management):
 
 ```bash
-# npm
+nvm use 22.14.0
+```
+
+3. Copy the `.env.example` file to `.env` and install dependencies:
+
+```bash
+cp .env.example .env && npm install
+```
+
+4. Start the development server on `http://localhost:3000`:
+
+```bash
 npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
 ```
 
-## Production
+## Additional Pacakges & Libraries
 
-Build the application for production:
+#### Nuxt Modules:
 
-```bash
-# npm
-npm run build
+- ...
 
-# pnpm
-pnpm build
+#### Other Packages:
 
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- ...
