@@ -37,7 +37,7 @@ npm run dev
 
 #### Nuxt Modules:
 
-- ...
+- [Nuxtjs Supabase](https://supabase.nuxtjs.org/)
 
 #### Other Packages:
 
