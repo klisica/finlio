@@ -37,6 +37,7 @@ npm run dev
 
 #### Nuxt Modules:
 
+- [Nuxtjs TailwindCSS](https://tailwindcss.nuxtjs.org/)
 - [Nuxtjs Supabase](https://supabase.nuxtjs.org/)
 
 #### Other Packages:
